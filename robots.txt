@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vat3-ireland.dokuline.com/sitemap.xml
