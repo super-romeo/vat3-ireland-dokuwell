@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="For VAT-registered businesses in Ireland: books kept from your invoices and the bi-monthly VAT3 figures prepared for you to file on ROS.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -81,38 +85,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Vatwise</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Vatwise</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Your VAT3 every two months — figures straight from the books, no spreadsheet</h1>
-    <p class="sub">For sole traders and small companies registered for VAT in Ireland: add sales invoices, purchase invoices and bank lines, Vatwise sorts them by VAT rate, works out VAT on sales and VAT on purchases and has the VAT3 figures ready before the 23rd.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Early access · No payment is taken on this page yet</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For sole traders and small companies</p>
+      <h1 class="rise" style="--i:1" data-len="long">Your VAT3 every two months&nbsp;<span class="soft">— figures straight from the books, no spreadsheet</span></h1>
+      <p class="rise" style="--i:2">For sole traders and small companies registered for VAT in Ireland: add sales invoices, purchase invoices and bank lines, Vatwise sorts them by VAT rate, works out VAT on sales and VAT on purchases and has the VAT3 figures ready before the 23rd.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Early access · No payment is taken on this page yet</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="160" font-size="40" font-weight="600" fill="#0a1524">VAT3</text><line x1="120" y1="200" x2="1080" y2="200" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="250" width="460" height="64" rx="12" fill="#eef2f7" /><text x="148" y="292" font-size="32" fill="#0a1524">Books</text><rect x="120" y="340" width="460" height="64" rx="12" fill="#dfe8f7" /><text x="148" y="382" font-size="32" fill="#0a1524">T1</text><rect x="120" y="430" width="460" height="64" rx="12" fill="#eef2f7" /><rect x="148" y="452" width="260" height="22" rx="8" fill="#dde2ea" /><rect x="120" y="520" width="460" height="64" rx="12" fill="#eef2f7" /><rect x="148" y="542" width="200" height="22" rx="8" fill="#b9c3d2" /><rect x="660" y="250" width="400" height="400" rx="20" fill="#dfe8f7" /><text x="690" y="320" font-size="30" font-weight="600" fill="#0a1524">before the 23rd</text><rect x="700" y="400" width="300" height="40" rx="12" fill="#ffffff" /><rect x="700" y="460" width="240" height="40" rx="12" fill="#12397a" /><rect x="700" y="520" width="270" height="40" rx="12" fill="#ffffff" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>Sole traders and small companies</dd></div>
+      <div><dt>Figures</dt><dd>VAT3 figures ready</dd></div>
+      <div><dt>Books</dt><dd>Add sales invoices</dd></div>
+      <div><dt>Access</dt><dd>Early access</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>Books</b><span>Sales, purchases and bank lines in one place.</span><br><a class="btn" href="price.html" data-ev="feature_books">I need this</a></div>
-      <div class="card"><b>VAT3 figures</b><span>T1 VAT on sales, T2 VAT on purchases, the net amount.</span><br><a class="btn" href="price.html" data-ev="feature_vat3">I need this</a></div>
-      <div class="card"><b>Check</b><span>Every figure opens to the invoices behind it.</span><br><a class="btn" href="price.html" data-ev="feature_check">I need this</a></div>
-      <div class="card"><b>Deadlines</b><span>A reminder before the 23rd of the month after each period.</span><br><a class="btn" href="price.html" data-ev="feature_dates">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="110" y="80" width="580" height="440" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="150" y="150" font-size="36" font-weight="600" fill="#0a1524">Books</text><rect x="150" y="200" width="480" height="48" rx="12" fill="#eef2f7" /><rect x="150" y="268" width="480" height="48" rx="12" fill="#dfe8f7" /><rect x="150" y="336" width="480" height="48" rx="12" fill="#eef2f7" /><rect x="150" y="404" width="320" height="48" rx="12" fill="#dde2ea" /></svg></div>
+        <h3>Books</h3><p>Sales, purchases and bank lines in one place.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_books">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="100" y="70" width="600" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="140" y="150" font-size="34" font-weight="600" fill="#0a1524">VAT3 figures</text><rect x="140" y="200" width="500" height="70" rx="14" fill="#dfe8f7" /><text x="170" y="246" font-size="30" fill="#0a1524">T1</text><rect x="140" y="290" width="500" height="70" rx="14" fill="#eef2f7" /><text x="170" y="336" font-size="30" fill="#0a1524">T2</text><rect x="140" y="380" width="320" height="70" rx="14" fill="#12397a" /></svg></div>
+        <h3>VAT3 figures</h3><p>T1 VAT on sales, T2 VAT on purchases, the net amount.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_vat3">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="90" y="80" width="620" height="440" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="150" font-size="36" font-weight="600" fill="#0a1524">Check</text><rect x="130" y="200" width="500" height="44" rx="10" fill="#eef2f7" /><polyline points="156,222 170,236 196,206" fill="none" stroke="#12397a" stroke-width="5" /><rect x="130" y="264" width="500" height="44" rx="10" fill="#dfe8f7" /><polyline points="156,286 170,300 196,270" fill="none" stroke="#12397a" stroke-width="5" /><rect x="130" y="328" width="500" height="44" rx="10" fill="#eef2f7" /><rect x="130" y="392" width="360" height="44" rx="10" fill="#dde2ea" /></svg></div>
+        <h3>Check</h3><p>Every figure opens to the invoices behind it.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_check">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="120" y="70" width="560" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="160" y="140" font-size="36" font-weight="600" fill="#0a1524">Deadlines</text><circle cx="400" cy="340" r="120" fill="#dfe8f7" /><circle cx="400" cy="340" r="8" fill="#12397a" /><line x1="400" y1="340" x2="400" y2="260" stroke="#12397a" stroke-width="6" /><line x1="400" y1="340" x2="470" y2="360" stroke="#0a1524" stroke-width="4" /></svg></div>
+        <h3>Deadlines</h3><p>A reminder before the 23rd of the month after each period.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_dates">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">A sole trader electrician in Cork, registered for VAT. In the September–October period she issued 19 invoices and received 31 from suppliers. On 4 November she uploads the PDFs and the bank export; Vatwise shows VAT on sales, VAT on purchases and the amount payable, with the invoices behind each box. She checks two fuel receipts, confirms, and files the VAT3 on ROS well before the 23rd.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">See the offer</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>A sole trader electrician in Cork, registered for VAT. In the September–October period she issued 19 invoices and received 31 from suppliers. On 4 November she uploads the PDFs and the bank export; Vatwise shows VAT on sales, VAT on purchases and the amount payable, with the invoices behind each box. She checks two fuel receipts, confirms, and files the VAT3 on ROS well before the 23rd.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">See the offer</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="240" y="230" font-size="30" font-weight="600" fill="#0a1524" text-anchor="middle">uploads</text><text x="600" y="230" font-size="30" font-weight="600" fill="#0a1524" text-anchor="middle">confirms</text><text x="960" y="230" font-size="30" font-weight="600" fill="#0a1524" text-anchor="middle">on ROS</text><rect x="140" y="310" width="920" height="390" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="190" y="400" font-size="36" font-weight="600" fill="#0a1524">files the VAT3</text><rect x="190" y="460" width="500" height="24" rx="8" fill="#dde2ea" /><rect x="190" y="510" width="380" height="24" rx="8" fill="#b9c3d2" /><rect x="190" y="560" width="440" height="24" rx="8" fill="#dfe8f7" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>Every two months a small VAT-registered business in Ireland has to work out the VAT on its sales and purchases and file a VAT3 return. Many do it by hand in a spreadsheet in the last few days, digging invoices out of email, or pay an accountant per return just for that. Vatwise keeps the books as you go and prepares the VAT3 figures from them.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>Every two months a small VAT-registered business in Ireland has to work out the VAT on its sales and purchases and file a VAT3 return. Many do it by hand in a spreadsheet in the last few days, digging invoices out of email, or pay an accountant per return just for that. Vatwise keeps the books as you go and prepares the VAT3 figures from them.</p>
     <p>It works simply: you add your sales invoices, purchase invoices and bank lines, or the invoice lists you already keep, and Vatwise sorts each one by VAT rate. Common questions are answered in the <a href="#faq" data-ev="click_opis_faq">FAQ</a>, and you can register your business <a href="#start" data-ev="click_opis_start">at the end of this page</a>.</p>
     <p>With the period's invoices in, you see VAT on sales (T1), VAT on purchases you can reclaim (T2) and the net figure payable or repayable. Each figure opens to the invoices it comes from, so you know what you are filing.</p>
     <p>Invoices with something missing or odd are flagged before the figures are worked out: a supplier invoice without a VAT number, a rate that does not match the item, a purchase that may not be reclaimable. They get fixed before filing, not afterwards.</p>
@@ -122,33 +156,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>If you already work with an accountant for the year-end accounts or income tax, you can keep doing so: Vatwise only handles the books and the VAT3 figures, and you can share each period with your accountant.</p>
     <p>To start, you only need the invoices of the current period. Earlier periods can be added too, to compare with what you already filed.</p>
     <p>Vatwise is a bookkeeping and calculation tool; responsibility for the return and for the invoice data stays with the business.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>How are the VAT3 figures worked out?</h3>
-    <p>VAT charged on your sales invoices goes to T1, VAT you can reclaim on purchase invoices goes to T2, and the difference is payable or repayable. Vatwise works it out from your books and shows where each figure comes from.</p>
-    <h3>When is the VAT3 due?</h3>
-    <p>By the 23rd of the month after each two-month period when filing and paying on ROS. Vatwise reminds you beforehand.</p>
-    <h3>What if an invoice has an error?</h3>
-    <p>It is flagged before the figures are worked out so you can fix it, for example a missing VAT number or the wrong rate.</p>
-    <h3>Can I keep my accountant?</h3>
-    <p>Yes. Vatwise only does the books and the VAT3 figures, and you can share each period with your accountant.</p>
-    <h3>Do I need to install anything?</h3>
-    <p>No, it works in the browser and on the phone.</p>
-    <h3>Can I use it now?</h3>
-    <p>Not yet. The service is being prepared and we are checking whether it is useful for small VAT-registered businesses in Ireland.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>How are the VAT3 figures worked out?</h3><p>VAT charged on your sales invoices goes to T1, VAT you can reclaim on purchase invoices goes to T2, and the difference is payable or repayable. Vatwise works it out from your books and shows where each figure comes from.</p></div>
+      <div class="split flip"><h3>When is the VAT3 due?</h3><p>By the 23rd of the month after each two-month period when filing and paying on ROS. Vatwise reminds you beforehand.</p></div>
+      <div class="split flip"><h3>What if an invoice has an error?</h3><p>It is flagged before the figures are worked out so you can fix it, for example a missing VAT number or the wrong rate.</p></div>
+      <div class="split flip"><h3>Can I keep my accountant?</h3><p>Yes. Vatwise only does the books and the VAT3 figures, and you can share each period with your accountant.</p></div>
+      <div class="split flip"><h3>Do I need to install anything?</h3><p>No, it works in the browser and on the phone.</p></div>
+      <div class="split flip"><h3>Can I use it now?</h3><p>Not yet. The service is being prepared and we are checking whether it is useful for small VAT-registered businesses in Ireland.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Register your business</h2>
-    <p><label>Invoices per two-month period (sales and purchases)<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>Fewer than 30</option><option>30–100</option><option>100–300</option><option>More than 300</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Start</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Register your business</h2>
+    </div>
+    <div class="tile stack">
+      <label>Invoices per two-month period (sales and purchases)<select data-ev-focus="form_start"><option value="">— please choose —</option><option>Fewer than 30</option><option>30–100</option><option>100–300</option><option>More than 300</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Start</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Vatwise</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Bookkeeping and calculation tool; the return and the invoice data remain the responsibility of the business.</p>
+  <p>Bookkeeping and calculation tool; the return and the invoice data remain the responsibility of the business.</p>
 </div></footer>
 
 </body>
